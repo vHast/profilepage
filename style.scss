@@ -167,6 +167,7 @@ nav {
         padding: 1.2rem;
         border-radius: 50%;
         border: black 5px solid;
+        color: rgb(44, 44, 44);
         background-color: white;
       }
       h2 {
@@ -207,7 +208,7 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
-        border: rgb(30, 127, 255) 2px solid;
+        border: rgb(0, 0, 0) 2px solid;
         
         &:first-child {
           color: rgb(0, 81, 255);

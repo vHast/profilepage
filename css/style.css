@@ -170,6 +170,7 @@ nav ul li:hover {
   padding: 1.2rem;
   border-radius: 50%;
   border: black 5px solid;
+  color: #2c2c2c;
   background-color: white;
 }
 
@@ -213,7 +214,7 @@ footer .container ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: #1e7fff 2px solid;
+  border: black 2px solid;
 }
 
 footer .container ul li:first-child {
