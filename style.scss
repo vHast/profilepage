@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  padding: 0.75rem 1rem;
+  color: white;
+  background-color: rgb(37, 139, 255);
+  border-radius: 5px;
+}
+
+nav {
+  padding-top: 1rem;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 59px;
+    border-bottom: 2px rgb(231, 231, 231) solid;
+    
+
+    #nav-img {
+      a {
+        font-size: 1.25rem;
+        font-weight: bold;
+        padding: 1rem;
+        background-color: rgb(255, 255, 255);
+        height: 52px;
+        border-bottom: 2px rgb(231, 231, 231) solid;
+        &:hover {
+          border-bottom: 2px  rgb(0, 107, 247) solid;
+          color:rgb(0, 83, 192);
+        }
+      }
+    }
+
+    }
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      li {
+        height: 60px;
+        padding: 1rem;
+        border-bottom: 2px rgb(231, 231, 231) solid;
+        transition: border-bottom 0.5s;
+        font-weight: bold;
+        a:hover {
+          color:rgb(0, 83, 192);
+        }
+        &:hover {
+          border-bottom: 2px rgb(0, 83, 192) solid;
+        }
+      }
+    }
+  }
+
+
+.container {
+  margin: 0 15%;
+}
+
+#showcase {
+  padding-top: 8.5rem;
+  text-align: center;
+  .container {
+    padding-bottom: 3rem;
+    border-bottom: 2px rgb(231, 231, 231) solid;
+
+    h1 {
+      color: gray;
+    }
+  }
+}
+
+#showcase-alt {
+  background-color: rgb(255, 255, 255);
+  .container {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px rgb(231, 231, 231) solid;
+    
+    #show-img {
+      background-image: url(/img/showcase.png);
+      min-height: 127px;
+      min-width: 200px;
+      height: 380px;
+      width: 70vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      padding: 1rem;
+      overflow: hidden;
+    }
+
+    .text-container {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      padding-left: 4rem;
+      min-width: 377px;
+
+      ul {
+        padding-bottom: 8px;
+        display: flex;
+        justify-content: center;
+        li {
+          padding: 0 1rem;
+        }
+      }
+      
+
+      a {
+        align-self: center;
+        margin-top: 1rem;
+        width: 7rem;
+        height: 2.8rem;
+        text-align: center;
+        transition: background-color 0.2s ease-in;
+
+        &:hover {
+          background-color: rgb(118, 182, 255);
+        }
+      }
+    }
+  }
+}
+
+#attributes-section {
+  padding: 2rem 0;
+
+  .container {
+    display: flex;
+
+    .att-sheet {
+      text-align: center;
+      background-color: rgb(231, 231, 231);
+      border-radius: 5px;
+      height: fit-content;
+      padding-bottom: 2rem;
+      padding-left: 0.8rem;
+      padding-right: 0.8rem;
+      margin: 0 1rem;
+
+      i {
+        margin-top: 2.5rem;
+        padding: 1.2rem;
+        border-radius: 50%;
+        border: black 5px solid;
+        background-color: white;
+      }
+      h2 {
+        padding-top: 1rem;
+      }
+      p {
+        padding: 1rem 0;
+        text-align: center;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: rgb(34, 34, 34);
+  width: 100%;
+  height: fit-content;
+  color: rgb(0, 0, 0);
+
+  .container {
+    background-color: rgb(17, 17, 17) ;
+    height: fit-content;
+    color: white;
+    text-align: center;
+
+    ul {
+      padding: 1rem 0;
+      display: flex;
+      justify-content: center;
+      li {
+        margin: 0 0.8rem;
+        padding: 1rem;
+        background-color: white;
+        height: 25px;
+        width: 25px;
+        text-align: center;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: black 2px solid;
+        
+        &:first-child {
+          color: rgb(0, 81, 255);
+        }
+
+        &:nth-child(2) {
+          color: rgb(51, 116, 255);
+        }
+
+        &:nth-child(3) {
+          color: rgb(255, 133, 51);
+        }
+
+        &:nth-child(4) {
+          color: rgb(80, 255, 246);
+          font-size: 1.4rem;
+        }
+      }
+    }
+
+    p {
+      padding-bottom: 2rem;
+    }
+  }
+}

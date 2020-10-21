@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  padding: 0.75rem 1rem;
+  color: white;
+  background-color: #258bff;
+  border-radius: 5px;
+}
+
+nav {
+  padding-top: 1rem;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  height: 59px;
+  border-bottom: 2px #e7e7e7 solid;
+}
+
+nav .container #nav-img a {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 1rem;
+  background-color: white;
+  height: 52px;
+  border-bottom: 2px #e7e7e7 solid;
+}
+
+nav .container #nav-img a:hover {
+  border-bottom: 2px #006bf7 solid;
+  color: #0053c0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav ul li {
+  height: 60px;
+  padding: 1rem;
+  border-bottom: 2px #e7e7e7 solid;
+  transition: border-bottom 0.5s;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #0053c0;
+}
+
+nav ul li:hover {
+  border-bottom: 2px #0053c0 solid;
+}
+
+.container {
+  margin: 0 15%;
+}
+
+#showcase {
+  padding-top: 8.5rem;
+  text-align: center;
+}
+
+#showcase .container {
+  padding-bottom: 3rem;
+  border-bottom: 2px #e7e7e7 solid;
+}
+
+#showcase .container h1 {
+  color: gray;
+}
+
+#showcase-alt {
+  background-color: white;
+}
+
+#showcase-alt .container {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px #e7e7e7 solid;
+}
+
+#showcase-alt .container #show-img {
+  background-image: url(/img/showcase.png);
+  min-height: 127px;
+  min-width: 200px;
+  height: 380px;
+  width: 70vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+#showcase-alt .container .text-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 4rem;
+  min-width: 377px;
+}
+
+#showcase-alt .container .text-container ul {
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+#showcase-alt .container .text-container ul li {
+  padding: 0 1rem;
+}
+
+#showcase-alt .container .text-container a {
+  align-self: center;
+  margin-top: 1rem;
+  width: 7rem;
+  height: 2.8rem;
+  text-align: center;
+  transition: background-color 0.2s ease-in;
+}
+
+#showcase-alt .container .text-container a:hover {
+  background-color: #76b6ff;
+}
+
+#attributes-section {
+  padding: 2rem 0;
+}
+
+#attributes-section .container {
+  display: flex;
+}
+
+#attributes-section .container .att-sheet {
+  text-align: center;
+  background-color: #e7e7e7;
+  border-radius: 5px;
+  height: fit-content;
+  padding-bottom: 2rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  margin: 0 1rem;
+}
+
+#attributes-section .container .att-sheet i {
+  margin-top: 2.5rem;
+  padding: 1.2rem;
+  border-radius: 50%;
+  border: black 5px solid;
+  background-color: white;
+}
+
+#attributes-section .container .att-sheet h2 {
+  padding-top: 1rem;
+}
+
+#attributes-section .container .att-sheet p {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #222222;
+  width: 100%;
+  height: fit-content;
+  color: black;
+}
+
+footer .container {
+  background-color: #111111;
+  height: fit-content;
+  color: white;
+  text-align: center;
+}
+
+footer .container ul {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer .container ul li {
+  margin: 0 0.8rem;
+  padding: 1rem;
+  background-color: white;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: black 2px solid;
+}
+
+footer .container ul li:first-child {
+  color: #0051ff;
+}
+
+footer .container ul li:nth-child(2) {
+  color: #3374ff;
+}
+
+footer .container ul li:nth-child(3) {
+  color: #ff8533;
+}
+
+footer .container ul li:nth-child(4) {
+  color: #50fff6;
+  font-size: 1.4rem;
+}
+
+footer .container p {
+  padding-bottom: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
