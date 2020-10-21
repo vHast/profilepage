@@ -101,7 +101,10 @@
   
   nav .container ul li {
     font-size: 0.8rem;
-    padding: 1rem 0.2rem;
-    
+    padding: 1rem 0.2rem; 
   }
+
+  #attributes-section .container .att-sheet {
+    height: fit-content;
+  } 
 }

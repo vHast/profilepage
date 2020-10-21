@@ -213,7 +213,7 @@ footer .container ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: black 2px solid;
+  border: #1e7fff 2px solid;
 }
 
 footer .container ul li:first-child {
