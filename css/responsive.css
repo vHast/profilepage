@@ -101,6 +101,14 @@
   #contact-alt .container .contact-opt .contact-sheet {
     padding: 1rem;
   }
+
+  #profile-alt .container{
+    margin: 0;
+  }
+
+  #profile-alt .container p{
+    margin: 0 3rem;
+  }
  }
 
  @media (max-width:330px) {
