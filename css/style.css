@@ -270,6 +270,64 @@ nav ul li:hover {
   font-size: 1.5rem;
 }
 
+#profile-showcase {
+  padding-top: 75px;
+}
+
+#profile-showcase .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 90%;
+  background-image: url(/img/profile-showcase-alt.jpg);
+}
+
+#profile-showcase .container h1, #profile-showcase .container span {
+  font-size: 2rem;
+  font-family: 'Commissioner', sans-serif;
+}
+
+#profile-showcase .container span {
+  color: #258bff;
+  text-shadow: #001d5c 2px 2px 2px;
+}
+
+#profile-alt {
+  text-align: center;
+}
+
+#profile-alt .container {
+  padding: 1rem 0;
+  border-top: 2px #e7e7e7 solid;
+  background-color: whitesmoke;
+}
+
+#profile-alt .container p {
+  padding-top: 1rem;
+  margin: 0 20%;
+}
+
+#profile-alt .container #cert-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 32%;
+}
+
+#profile-alt .container #logo-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 40%;
+}
+
+#profile-alt .container #logo-container li img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
 footer {
   background-color: #222222;
   width: 100%;

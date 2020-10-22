@@ -276,6 +276,66 @@ nav {
     }
   }
 }
+
+// Section G: Profile Showcase
+
+#profile-showcase {
+  padding-top: 75px;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 90%;
+    background-image: url(/img/profile-showcase-alt.jpg);
+
+    h1, span {
+      font-size: 2rem;
+      font-family: 'Commissioner', sans-serif;
+    }
+
+    span {
+      color: rgb(37, 139, 255);
+      text-shadow: rgb(0, 29, 92) 2px 2px 2px;
+    }
+  }
+}
+
+#profile-alt {
+  
+  text-align: center;
+  .container {
+    padding: 1rem 0;
+    border-top: 2px #e7e7e7 solid;
+    background-color: rgb(245, 245, 245);
+
+    p {
+      padding-top: 1rem;
+      margin: 0 20%;
+      
+    }
+
+    #cert-container {
+      display: flex;
+      justify-content: space-evenly;
+      margin: 0 32%;
+    }
+
+    #logo-container {
+      display: flex;
+      justify-content: space-evenly;
+      margin: 0 40%;
+
+      li img{
+        max-width: 50px;
+        max-height: 50px;
+      }
+    }
+  }
+}
 //Section D: Footer
 footer {
   background-color: rgb(34, 34, 34);
