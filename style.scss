@@ -22,6 +22,10 @@ ul {
   background-color: rgb(37, 139, 255);
   border-radius: 5px;
 }
+
+.main-title {
+  font-family: 'Commissioner', sans-serif;
+}
 // Section A: Nav
 nav {
   padding-top: 1rem;
@@ -85,7 +89,7 @@ nav {
   padding-top: 8.5rem;
   text-align: center;
   .container {
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
     border-bottom: 2px rgb(231, 231, 231) solid;
 
     h1 {
@@ -164,6 +168,22 @@ nav {
       padding-right: 0.8rem;
       margin: 0 1rem;
 
+      #ic-stencil {
+        color: rgb(89, 223, 0);
+        text-shadow:  rgb(28, 121, 0) 2px 2px 3px;
+      }
+
+      #ic-lupa {
+        color:black;
+        text-shadow:rgb(75, 75, 75) 2px 2px 5px;
+      }
+
+      #ic-thumbs {
+        color: rgb(0, 110, 255);
+        text-shadow: rgb(0, 43, 100) 2px 2px 5px;
+        
+      }
+
       i {
         margin-top: 2.5rem;
         padding: 1.2rem;
@@ -182,6 +202,7 @@ nav {
     }
   }
 }
+
 //Section E: Footer
 footer {
   background-color: rgb(34, 34, 34);

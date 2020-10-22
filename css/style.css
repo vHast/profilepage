@@ -21,6 +21,10 @@ ul {
   border-radius: 5px;
 }
 
+.main-title {
+  font-family: 'Commissioner', sans-serif;
+}
+
 nav {
   padding-top: 1rem;
   position: fixed;
@@ -83,7 +87,7 @@ nav ul li:hover {
 }
 
 #showcase .container {
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
   border-bottom: 2px #e7e7e7 solid;
 }
 
@@ -163,6 +167,21 @@ nav ul li:hover {
   padding-left: 0.8rem;
   padding-right: 0.8rem;
   margin: 0 1rem;
+}
+
+#attributes-section .container .att-sheet #ic-stencil {
+  color: #59df00;
+  text-shadow: #1c7900 2px 2px 3px;
+}
+
+#attributes-section .container .att-sheet #ic-lupa {
+  color: black;
+  text-shadow: #4b4b4b 2px 2px 5px;
+}
+
+#attributes-section .container .att-sheet #ic-thumbs {
+  color: #006eff;
+  text-shadow: #002b64 2px 2px 5px;
 }
 
 #attributes-section .container .att-sheet i {
