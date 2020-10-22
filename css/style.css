@@ -25,6 +25,10 @@ ul {
   font-family: 'Commissioner', sans-serif;
 }
 
+.container {
+  margin: 0 15%;
+}
+
 nav {
   padding-top: 1rem;
   position: fixed;
@@ -75,10 +79,6 @@ nav ul li a:hover {
 
 nav ul li:hover {
   border-bottom: 2px #0053c0 solid;
-}
-
-.container {
-  margin: 0 15%;
 }
 
 #showcase {

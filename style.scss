@@ -15,6 +15,7 @@ a {
 ul {
   list-style-type: none;
 }
+
 // Utilities
 .btn {
   padding: 0.75rem 1rem;
@@ -26,6 +27,11 @@ ul {
 .main-title {
   font-family: 'Commissioner', sans-serif;
 }
+
+.container {
+  margin: 0 15%;
+}
+
 // Section A: Nav
 nav {
   padding-top: 1rem;
@@ -40,9 +46,9 @@ nav {
     align-items: center;
     height: 59px;
     border-bottom: 2px rgb(231, 231, 231) solid;
-    
 
     #nav-img {
+
       a {
         font-size: 1.25rem;
         font-weight: bold;
@@ -50,14 +56,14 @@ nav {
         background-color: rgb(255, 255, 255);
         height: 52px;
         border-bottom: 2px rgb(231, 231, 231) solid;
+
         &:hover {
           border-bottom: 2px  rgb(0, 107, 247) solid;
           color:rgb(0, 83, 192);
         }
       }
     }
-
-    }
+  }
 
     ul {
       display: flex;
@@ -70,9 +76,11 @@ nav {
         border-bottom: 2px rgb(231, 231, 231) solid;
         transition: border-bottom 0.5s;
         font-weight: bold;
+
         a:hover {
           color:rgb(0, 83, 192);
         }
+
         &:hover {
           border-bottom: 2px rgb(0, 83, 192) solid;
         }
@@ -80,14 +88,11 @@ nav {
     }
   }
 
-
-.container {
-  margin: 0 15%;
-}
 // Section B: Showcase
 #showcase {
   padding-top: 8.5rem;
   text-align: center;
+
   .container {
     padding-bottom: 5rem;
     border-bottom: 2px rgb(231, 231, 231) solid;
@@ -97,9 +102,11 @@ nav {
     }
   }
 }
+
 // Section C: Showcase-Backup
 #showcase-alt {
   background-color: rgb(255, 255, 255);
+
   .container {
     background-color: rgb(240, 253, 255);
     padding: 2rem;
@@ -131,12 +138,12 @@ nav {
         padding-bottom: 8px;
         display: flex;
         justify-content: center;
+
         li {
           padding: 0 1rem;
         }
       }
       
-
       a {
         align-self: center;
         margin-top: 1rem;
@@ -193,9 +200,11 @@ nav {
         color: rgb(44, 44, 44);
         background-color: white;
       }
+
       h2 {
         padding-top: 1rem;
       }
+
       p {
         padding: 1rem 0;
         text-align: center;
@@ -211,6 +220,7 @@ nav {
   text-align: center;
 
   .container {
+    
     form {
       padding-top: 2rem;
       margin: 0 20%;
@@ -284,6 +294,7 @@ nav {
 
 #profile-showcase {
   padding-top: 75px;
+
   .container {
     display: flex;
     flex-direction: column;
@@ -308,8 +319,8 @@ nav {
 }
 
 #profile-alt {
-  
   text-align: center;
+
   .container {
     padding: 1rem 0;
     border-top: 2px #e7e7e7 solid;
@@ -356,6 +367,7 @@ footer {
       padding: 1rem 0;
       display: flex;
       justify-content: center;
+      
       li {
         margin: 0 0.8rem;
         padding: 1rem;

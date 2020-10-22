@@ -6,7 +6,7 @@
   #showcase-alt .container {
     flex-direction: column;
   }
- }
+}
 
 @media (max-width:765px) {
  .container {
@@ -34,18 +34,22 @@
     font-size: 1.6rem;
     padding: 0 1rem;
   }
+
   #showcase-alt .container {
     padding:0 0 2 0;
   }
+
   #showcase-alt .container {
     flex-direction: column;
   }
+
   #showcase-alt .container #show-img {
     background-image: url(/img/showcaseresp.png);
     width: 150px;
     height: 95px;
     padding: 1 0;
   }
+
   #showcase-alt .container .text-container {
     padding-top: 2rem;
     min-width: none;
@@ -56,8 +60,6 @@
   #showcase-alt .container .text-container h1 {
     padding: 1rem;
   }
-
-  
 
   #showcase-alt .container .text-container ul li {
     font-size: 0.7rem;
@@ -94,10 +96,12 @@
     height: fit-content;
     background-color: rgb(243, 243, 243)
   }
+
   #contact-alt .container .contact-opt{
     font-size: 0.8rem;
     flex-direction: column;
   }
+
   #contact-alt .container .contact-opt .contact-sheet {
     padding: 1rem;
   }
@@ -109,7 +113,7 @@
   #profile-alt .container p{
     margin: 0 3rem;
   }
- }
+}
 
  @media (max-width:330px) {
 
