@@ -363,19 +363,19 @@ footer .container ul li {
 }
 
 footer .container ul li:first-child {
-  color: #0051ff;
+  color: #0034a5;
 }
 
 footer .container ul li:nth-child(2) {
-  color: #3374ff;
+  color: #5cb5ff;
 }
 
 footer .container ul li:nth-child(3) {
-  color: #ff8533;
+  color: #f06000;
 }
 
 footer .container ul li:nth-child(4) {
-  color: #50fff6;
+  color: #00c0b6;
   font-size: 1.4rem;
 }
 
