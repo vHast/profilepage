@@ -74,7 +74,33 @@
     height: 20rem;
   } 
 
+  #attributes-section .container .att-sheet {
+    height: fit-content;
+  }
+  #contact-sect .container {
+    margin: 0;
+  }
+  #contact-sect .container form {
+    margin: auto;
+  }
 
+  #contact-sect .container form input{
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  #contact-alt {
+    height: fit-content;
+    padding-bottom: 2rem;
+  }
+  #contact-alt .container .contact-opt{
+    font-size: 0.8rem;
+    flex-direction: column;
+  }
+  #contact-alt .container .contact-opt .contact-sheet {
+    padding: 1rem;
+  }
  }
 
  @media (max-width:330px) {
@@ -103,8 +129,4 @@
     min-width: 150px;
     min-height: 95px;
   }
-
-  #attributes-section .container .att-sheet {
-    height: fit-content;
-  } 
 }
