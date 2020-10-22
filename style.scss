@@ -101,6 +101,7 @@ nav {
 #showcase-alt {
   background-color: rgb(255, 255, 255);
   .container {
+    background-color: rgb(240, 253, 255);
     padding: 2rem;
     display: flex;
     align-items: center;
@@ -248,10 +249,12 @@ nav {
 #contact-alt {
   
   margin-top: 2rem;
-  height: 30vh;
+  height: fit-content;
 
   .container {
     border-top: 2px #e7e7e7 solid;
+    background-color: rgb(243, 243, 243);
+    padding-bottom: 5rem;
 
     h2 {
       padding-top: 2rem;

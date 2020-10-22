@@ -100,6 +100,7 @@ nav ul li:hover {
 }
 
 #showcase-alt .container {
+  background-color: #f0fdff;
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -241,11 +242,13 @@ nav ul li:hover {
 
 #contact-alt {
   margin-top: 2rem;
-  height: 30vh;
+  height: fit-content;
 }
 
 #contact-alt .container {
   border-top: 2px #e7e7e7 solid;
+  background-color: #f3f3f3;
+  padding-bottom: 5rem;
 }
 
 #contact-alt .container h2 {
