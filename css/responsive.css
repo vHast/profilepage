@@ -78,11 +78,6 @@
  }
 
  @media (max-width:330px) {
-  #showcase-alt .container #show-img {
-    min-width: 150px;
-    min-height: 95px;
-  }
-
 
   nav .container #nav-img a {
     padding: 0rem;
@@ -98,10 +93,15 @@
     padding: 0;
     
   }
-  
+
   nav .container ul li {
     font-size: 0.8rem;
     padding: 1rem 0.2rem; 
+  }
+
+  #showcase-alt .container #show-img {
+    min-width: 150px;
+    min-height: 95px;
   }
 
   #attributes-section .container .att-sheet {

@@ -1,3 +1,5 @@
+//Main 
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,14 +15,14 @@ a {
 ul {
   list-style-type: none;
 }
-
+// Utilities
 .btn {
   padding: 0.75rem 1rem;
   color: white;
   background-color: rgb(37, 139, 255);
   border-radius: 5px;
 }
-
+// Section A: Nav
 nav {
   padding-top: 1rem;
   position: fixed;
@@ -78,7 +80,7 @@ nav {
 .container {
   margin: 0 15%;
 }
-
+// Section B: Showcase
 #showcase {
   padding-top: 8.5rem;
   text-align: center;
@@ -91,7 +93,7 @@ nav {
     }
   }
 }
-
+// Section C: Showcase-Backup
 #showcase-alt {
   background-color: rgb(255, 255, 255);
   .container {
@@ -145,7 +147,7 @@ nav {
     }
   }
 }
-
+// Section C: Attributes Section
 #attributes-section {
   padding: 2rem 0;
 
@@ -180,7 +182,7 @@ nav {
     }
   }
 }
-
+//Section E: Footer
 footer {
   background-color: rgb(34, 34, 34);
   width: 100%;
